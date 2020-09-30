@@ -4,6 +4,7 @@
 	font-family: 'FonteLogo';
 	src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+
 body{
 	font-family: Arial, sans-serif;
 	width: 100%;
@@ -88,6 +89,7 @@ div#sm {
 div#sm h1{
 	color: #1E90FF;
 	text-align: center;
+	font-family: ;
 }
 
 div#sm p{
