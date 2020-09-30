@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200);
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body{
+	font-family: Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
+
+div#sobremim {
+	width: 900px;
+	background-color: #E8E8E8;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, .5);
+	padding: 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+header#cabecalho img#icone {
+	position: relative;
+	top: -60px;
+}
+
+header#cabecalho img#foto {
+	position: relative;
+	left: 520px;
+	top: -60px;
+}
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	color: #1E90FF;
+	text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #1E90FF;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #4682B4;
+	transition: background-color 0s;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	color: #E8E8E8;
+	text-decoration: underline;
+}
+
+div#sm {
+	border-top: 2px solid #1E90FF;
+}
+
+div#sm h1{
+	color: #1E90FF;
+	text-align: center;
+}
+
+div#sm p{
+	color: #1E90FF;
+	text-align: justify;
+}
+
+div#fm {
+	border-top: 2px solid #1E90FF;
+}
+
+div#fm h1{
+	color: #1E90FF;
+	text-align: center;
+}
+
+div#fm p{
+	color: #1E90FF;
+	text-align: justify;
+}
+
+div#cd {
+	border-top: 2px solid #1E90FF;
+}
+
+div#cd h1{
+	color: #1E90FF;
+	text-align: center;
+}
+
+div#cd li{
+	color: #1E90FF;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 2px solid #1E90FF;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+footer#rodape p#copy {
+	text-align: center;
+	color: #1E90FF;
+	font-size: 12px;
+}

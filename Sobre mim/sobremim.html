@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+	<meta charset = "UTF-8"/>
+	<title>Sobre mim</title>
+	<link rel="stylesheet" href="_css/sobremim.css"/>
+</head>
+
+<script> 
+	function mudaFoto(foto){
+			document.getElementById("icone").src = foto;
+		}
+</script>
+
+<body background="_imagens/city.jpg">
+	<div id="sobremim">
+
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Romisly Domingos</h1>
+	</hgroup>
+
+<figure>
+	<img id="icone" src="_imagens/home.png" height="150px" width="160px" />
+	<img id="foto" src="_imagens/foto.png" height="160px" width="130px" />
+</figure>
+
+<nav id="menu">
+<h1>Sobre mim</h1>
+	<ul type="disc">
+		<li onmouseover= "mudaFoto('_imagens/avatar.png')" onmouseout="mudaFoto('_imagens/home.png')"><a href="#sm">Sobre mim</a></li>
+		<li onmouseover= "mudaFoto('_imagens/formacao.png')" onmouseout="mudaFoto('_imagens/home.png')"><a href="#fm">Formação</a></li>
+		<li onmouseover= "mudaFoto('_imagens/curiosidade.png')" onmouseout="mudaFoto('_imagens/home.png')"><a href="#cd">Curiosidades</a></li>
+	</ul>
+</nav>
+
+	</header>
+
+<div id="sm">
+	<h1>Sobre mim</h1>
+	<p><b>Olá, meu nome é Romisly Domingos dos Santos, tenho 20 anos e sou natural de Natal/RN. Desde cedo, tenho muito interesse e curiosidade nas áreas relacionadas à computação e, com a oportunidade de talvez participar de uma empresa júnior, pretendo adquirir mais experiência para o futuro mercado de trabalho.</b>
+</p>
+</div>
+
+<div id="fm">
+	<h1>Formação</h1>
+	<p><b>Atualmente, sou aluno do Bacharelado em Ciências e Tecnologia na Universidade Federal do Rio Grande do Norte  (UFRN). Possuo a formação de Técnico em Informática pelo Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - IFRN (2018).</b>
+	</p>
+</div>
+
+<div id="cd">
+	<h1>Curiosidades</h1>
+	<ul>
+		<b><li>Minha cor preferida é preto.</li>
+		<li>Jogo basquete.</li>
+		<li>Meu animal de estimação preferido é cachorro.</li>
+		<li>Meu estilo de jogo preferido é FPS.</li>
+		<li>Fascinado por filmes, séries e animes.</li></b>
+
+	</ul>
+</div>
+
+<footer id="rodape">
+<p>
+	<a href="https://www.instagram.com/romisly_domingos/" target="_blank"><img  id="i" src="_imagens/instagram.png" height="50px" width="50px"/></a> 
+	<a href="mailto: romislydomingos@gmail.com" target="_blank"><img id="g" src="_imagens/gmail.png" height="55px" width="55px"/></a> 
+	<a href=" https://wa.me/+5584996914677" target="_blank"><img id="w" src="_imagens/whatsapp.png" height="55px" width="55px"/></a>
+</p>
+
+<p id="copy">ProSEmpre - EJECT &copy; 2020.2 - Desenvolvido por Romisly Domingos</p>
+</footer>
+</div>
+</body>
+</html>
